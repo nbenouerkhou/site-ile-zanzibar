@@ -1,0 +1,399 @@
+
+/* Colors
+- Defaut body text #eee 
+- h1               #eee
+- h2               #333333
+- h3
+- buttoon          #fff
+- button:hover     #5ee077
+- border           #fff
+- icons            #0c950C
+*/
+
+/*GLOBAL
+========================*/
+
+html {
+    background-color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'lato', 'Arial', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight:500;
+    word-spacing: 8px;
+}
+
+h1 {
+    color:black;
+}
+
+h2 {
+    color: black;
+    font-size:250%;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+
+}
+
+h2::after {
+    display: block;
+    background-color:#52e6da;
+    width: 100px;
+    height: 2px;
+    content: "";
+    margin: 0 auto;
+    margin-top: 10px;
+
+}
+
+h3 {
+    font-size: 160%;
+}
+
+p {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 24px;
+}
+
+section {
+    padding: 30px 0 60px 0;
+}
+
+
+
+/* HEADER
+  =============================== */
+
+header {
+    background-image: linear-gradient(rgba(0, 242, 96, 0.4),
+            rgba(7, 117, 230, 0.6)), url(/resources/images/galerie/header.jpg);
+
+
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+.navBgColor{
+    background-color: #000000;
+}
+
+.zanzibar{
+    font-family: "warnes";
+}
+.title-home {
+    position: absolute;
+    top: 30%;
+}
+
+.title-home h1 {
+    font-size: 340%;
+    color: #fff;
+}
+
+.title-home h1 span {
+    font-weight: 700;
+}
+
+.title-home p {
+    color: #fff;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 1s, color 1s, border 1s;
+}
+
+.btn-full {
+    background-color: azure;
+    color:#52e6da;
+    margin-right: 15px;
+}
+
+.btn-ghost {
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.btn-full:hover {
+    background-color: #52e6da;
+    color: #fff;
+}
+
+.btn-ghost:hover {
+    background-color: #52e6da;
+    color: #fff;
+    border: 1px solid #52e6da;
+}
+
+
+/* QUI SOMMES-NOUS
+  =============================== */
+
+.zanzibar-icon {
+    font-size: 34px;
+    color: #f80a0a;
+    transition: all 1s;
+}
+
+.zanzibar-croyance {
+    margin: 20px 0;
+}
+
+.zanzibar-croyance:hover .zanzibar-icon{
+    color: #575757;
+    transform: translateX(20px);
+}
+
+
+/* NOTRE ILE
+  =============================== */
+
+.ile-zanzibar {
+    background-color: #0ce0f5;
+}
+
+.images-ile {
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-top: 30px;
+
+}
+
+.images-ile img {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.images-ile h4 {
+    text-align: center;
+}
+
+
+/* GALERIES PHOTOS
+  =============================== */
+
+
+.galeries-img {
+    display: block;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    height: 300px;
+    margin-top: 30px;
+    position: relative;
+}
+
+.galeries-titre {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+}
+
+.galeries-titre {
+    color: #fff;
+}
+
+
+/* Témoignages clients
+  =============================== */
+
+.clients {
+     background-image: linear-gradient(rgba(0, 242, 96, 0.4),
+            rgba(7, 117, 230, 0.6)), url(/resources/images/galerie/the-paysage.jpg); 
+
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.clients h2 {
+    color: #fff;
+}
+
+.clients h2::after {
+    background-color: #fff;
+}
+
+blockquote {
+    color: #fff;
+    padding: 5px;
+    font-style: italic;
+    line-height: 130%;
+}
+
+.bxs-quote-alt-left {
+    display: block;
+    font-size: 34px;
+    color: rgb(255, 255, 255, 0.6);
+
+}
+
+cite {
+    display: block;
+    font-size: 90%;
+    margin-top: 30px;
+}
+
+cite img {
+    height: 50px;
+    margin:20px 10px 0px 0px;
+    border-radius: 50px;
+}
+
+
+
+/* Nos séjours
+  =============================== */
+
+.pack {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.pack h3 {
+    color:#000000;
+    font-weight: 400;
+}
+
+.pack h4 {
+    font-size: 200%;
+    font-weight: 100;
+}
+
+.pack span {
+    font-size: 40%;
+    font-weight: 100;
+    position: relative;
+    top: -15px;
+    left: 2px;
+}
+
+.pack-premium {
+    background-color: #0ce0f5;
+    color: #fff;
+    
+}
+
+.pack-title-premium {
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    background-color: #fff;
+    color:#0ce0f5;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.pack-title {
+    position: relative;
+    padding: 10px 10px 0 10px;
+    border-bottom: 1px solid #e3e0e0;
+}
+
+.pack-content ul {
+    list-style: none;
+    padding: 20px;
+    font-weight: 300;
+    line-height: 35px;
+}
+
+.pack-content ul li i {
+    font-size: 90%;
+    margin-right: 10px;
+}
+
+.pack-signup {
+    text-align: center;
+}
+
+.btn-pack {
+    background-color: #0ce0f5;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.btn-pack-white{
+    background-color: #fff;
+    color: #0ce0f5;
+    margin-bottom: 20px;
+}
+
+/* CONTACT
+  =============================== */
+
+.form p,.phone,.adresse{
+    margin-top:20px ;
+}
+
+.phone,.adresse{
+    margin-bottom: 10px;
+}
+.contact-form {
+    margin-bottom:25px;
+}
+
+.contact-message {
+    width: 100%;
+}
+
+.btn-contact {
+    background-color:#0ce0f5;
+    color: #fff;
+}
+
+.map{
+    position:relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+
+.map iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* FOOTER
+  =============================== */
+
+  footer{
+      background-color:#000000;
+      color: #fff;
+      height: 60px;
+      padding: 20px;
+     
+  }
+
+  .copyright{
+    text-align: center;
+
+  }
+
+  .copyright a{
+      color: #fff;
+      text-decoration: none;
+  }
+
+
