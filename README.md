@@ -1,2 +1,2 @@
 # site-ile-zanzibar
-Ce site est réalisé en HTML - CSS - BOOTSTRAP
+site responsive (html/css/bootstrap)
